@@ -6,7 +6,7 @@ namespace TaskPro.Data
 {
     public interface ITaskRepository
     {
-        List<TaskItem> load();
+        List<TaskItem> Load();
         void Save(List<TaskItem> tasks);
     }
 
