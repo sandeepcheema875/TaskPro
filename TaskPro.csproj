@@ -74,7 +74,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Logger.cs" />
-    <Compile Include="Program.cs" />
+	<Compile Include="Services\TaskManager.cs" />
+	<Compile Include="Services\Searching\SearchService.cs" />
+	<Compile Include="Program.cs" />
     <Compile Include="Data\ITaskRepository.cs" />
     <Compile Include="Data\JsonRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
