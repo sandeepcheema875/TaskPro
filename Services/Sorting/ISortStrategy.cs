@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using TaskPro.Models;
+using TaskPro.Model;
 
 namespace TaskPro.Services.Sorting
 {
