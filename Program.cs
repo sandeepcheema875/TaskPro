@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TaskPro.UI;
 
 namespace TaskPro
 {
@@ -10,6 +11,9 @@ namespace TaskPro
     {
         static void Main(string[] args)
         {
+            MenuHandler menuHandler = new MenuHandler();
+            menuHandler.ShowMainMenu();
+
         }
     }
 }

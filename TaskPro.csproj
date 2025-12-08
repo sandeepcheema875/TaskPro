@@ -76,6 +76,9 @@
     <Compile Include="Data\Logger.cs" />
 	<Compile Include="Services\TaskManager.cs" />
 	<Compile Include="Services\Searching\SearchService.cs" />
+	<Compile Include="Services\Sorting\BubbleSortByDate.cs" />
+        <Compile Include="Services\Sorting\BubbleSortByPriority.cs" />
+	<Compile Include="Services\Sorting\ISortStrategy.cs" />
 	<Compile Include="Program.cs" />
     <Compile Include="Data\ITaskRepository.cs" />
     <Compile Include="Data\JsonRepository.cs" />
